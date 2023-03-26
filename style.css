@@ -20,7 +20,7 @@
   --second-color: #685f78;
   --main-color: #f66962;
   --hover-color: #ed352c;
-  --big-font: 3.5rem;
+  --big-font: 4.2rem;
   --h2-font: 2.6rem;
   --p-font: 1.1rem;
 }
@@ -45,6 +45,8 @@ header {
 }
 .menu-bar {
 /* margin-top: 2%; */
+/* background-color: #1DA1F2; */
+
   background-color: #ffffff;
   height: 142px;
   display: flex;
@@ -141,7 +143,8 @@ header {
   color: white;
   /* background-color: var(--main-color); */
   /* background-color:linear-gradient(rgb(255, 255, 255), rgb(158, 138, 177)); */
-  background: linear-gradient(90deg,#eb5b2b,#f37248,#faa86e);
+  /* background: linear-gradient(90deg,#eb5b2b,#f37248,#faa86e); */
+  background: linear-gradient(45deg, #fa2424,#fb8721);;
 
   border: 1px solid var(--main-color);
   margin-left: 20px;
@@ -161,13 +164,14 @@ section {
     /* background-image : linear-gradient(90deg,#eb5b2b,#f37248,#faa86e); */
 
   /* background-color: #d7caef; */
-  padding: 40px 13%;
+  padding: 40px 10%;
 }
 /* section{
 	padding: 80px 13%; 
-}*/
+} */
 .home {
-  padding-top: 10%;
+  padding-top: 8%;
+  padding-bottom: 5%;
   /* background-color: aqua; */
   position: relative;
   /* height: 100vh; */
@@ -184,6 +188,15 @@ section {
   font-size: var(--big-font);
   margin: 15px 0 15px;
 }
+
+.home-text h1 span:first-child{
+  color: #351b62;
+}
+
+/* .home-text h1 span:nth-child(5){
+  color: #685f78;
+} */
+/* .follow .icon a:nth-child(5):hover */
 .home-text h6 {
   color: var(--main-color);
   font-size: 22px;
@@ -210,20 +223,46 @@ section {
   border: 2px solid var(--main-color);
   border-radius: 30px;
 }
-.latter form input:last-child {
+/* .latter form input:last-child {
   position: absolute;
   display: inline-block;
   border: none;
   outline: none;
   background  : linear-gradient(90deg,#eb5b2b,#f37248,#faa86e);
-
-  /* background: var(--main-color); */
   color: var(--bg-color);
   padding: 16px 40px;
   border-radius: 30px;
   cursor: pointer;
   top: 2px;
   right: 1px;
+} */
+
+.btn-home .get{
+  /* background-color: #eb9173; */
+  padding: 23px 21px;
+  border-radius: 5px;
+  font-size: 15px;
+  /* background: linear-gradient(90deg, rgba(249,67,7,1) 0%, rgba(244,93,6,1) 35%, rgba(250,255,0,1) 100%); */
+  /* border: none; */
+  /* color: white; */
+  border: 1px solid black;
+}
+.btn-home .get:hover{
+border: none;
+color: white;
+background: linear-gradient(45deg, #fa2424,#fb8721);;
+/* background: linear-gradient(90deg, rgba(249,67,7,1) 0%, rgba(244,93,6,1) 35%, rgba(250,255,0,1) 100%); */
+}
+.btn-home .explore{
+  margin-left: 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 23px 21px;
+}
+.btn-home .explore:hover{
+  border: none;
+  color: white;
+  background: linear-gradient(45deg, #fa2424,#fb8721);;
 }
 .home-img img {
   top: 0;
@@ -581,7 +620,7 @@ li .color {
   }
  /* footer start  */
  .footer-container {
-  padding-bottom: 60px
+  padding-bottom: 40px
  }
  .footer-container  .footer-logo{
   width: 175px;
@@ -601,7 +640,7 @@ li .color {
   flex-wrap: wrap;
   justify-content: center;
   background-color: black;
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 .footer-container .footer .col a{
@@ -616,9 +655,9 @@ li .color {
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 40px;
-  gap: 25px;
-  margin-left:4% ;
-  margin-right:4% ;
+  gap: 20px;
+  margin-left:3% ;
+  margin-right:3% ;
   
 }
 
@@ -681,7 +720,9 @@ color: var(--main-color);
   font-size: 17px;
   text-decoration: none;
   transition: all 0.4s ease;
-  background  : linear-gradient(90deg,#eb5b2b,#f37248,#faa86e);
+  background: linear-gradient(45deg, #fa2424,#fb8721);;
+
+  /* background  : linear-gradient(90deg,#eb5b2b,#f37248,#faa86e); */
 }
 .icon a .fab
 {
@@ -935,3 +976,184 @@ line-height: 40px;
     margin-top: -12%;
   }
   }
+
+
+
+
+
+
+
+
+
+  
+/* swiper */
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  /* text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .swiper-slide {
+  width: 80%;
+} */
+
+.swiper-slide {
+  width: 80%;
+}
+
+
+/* .swiper-slide:nth-child(2n) {
+  width: 60%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 40%;
+} */
+
+
+
+
+
+.info{
+  width: 100%;
+
+}
+.sub-info{
+  /* background-color: #E1306C; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* justify-items: center; */
+  border:1px solid #e0e0e0;
+}
+
+.sub-info .part1{
+  /* background-color: chartreuse; */
+  height: 300px;
+  width: 50%;
+  /* justify-items: center; */
+  /* align-content: center; */
+  text-align: center;
+  border-bottom:1px solid #e0e0e0;
+
+  /* gap: 15px; */
+  /* border-radius: 4%; */
+  /* margin-left: 40%; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+
+.sub-info .part2{
+  /* background-color: rgb(29, 14, 147); */
+  height: 300px;
+  text-align: center;
+  width: 50%;
+  border-left:1px solid #e0e0e0;
+
+/* border: 1px solid gray; */
+
+}
+
+.sub-info .part3{
+  /* background-color: rgb(173, 235, 232); */
+  height: 300px;
+  text-align: center;
+  width: 50%;
+  border-right:1px solid #e0e0e0;
+
+}
+
+
+.sub-info .part4{
+  /* background-color: rgb(140, 147, 14); */
+  height: 300px;
+  text-align: center;
+  width: 50%;
+
+  border-top:1px solid #e0e0e0;
+
+}
+
+.sub-info p{
+  color: gray;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+
+
+ .part1 img{
+  width: 150px;
+  margin-top: 15px;
+  /* margin-left: 40%; */
+
+}
+.part2 img{
+  width: 150px;
+  margin-top: 15px;
+  /* margin-left: 40%; */
+  /* background-color: #901111; */
+}
+
+.sub-info img:hover{
+  width: 150px;
+  margin-top: 15px;
+  /* margin-left: 40%; */
+  background-color: white;
+}
+
+.part3 img{
+  width: 150px;
+  margin-top: 15px;
+  /* margin-left: 40%; */
+
+}
+.part4 img{
+  width: 150px;
+  margin-top: 15;
+  /* margin-left: 40%; */
+} 
+.part1:hover{
+  background: linear-gradient(45deg, #fa2424,#fb8721);
+  color: white;
+
+  
+}
+.part2:hover{
+  background: linear-gradient(45deg, #fa2424,#fb8721);
+  color: white;
+
+}
+.part3:hover{
+  background: linear-gradient(45deg, #fa2424,#fb8721);
+  color: white;
+
+}
+.part4:hover{
+  background: linear-gradient(45deg, #fa2424,#fb8721);
+  color: white;
+}
+
+/* .part1 .sub-info:hover{
+  color: white;
+}  */
