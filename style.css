@@ -210,19 +210,26 @@ section {
   font-weight: 500;
   margin-bottom: 48px;
 }
-.latter form {
+.home-text  h1 .span {
+  background-color: red;
+  /* background: linear-gradient(
+  to right, #f32121, #ffa908); */
+}
+
+
+/* .latter form {
   width: 100%;
   max-width: 460px;
   position: relative;
-}
-.latter form input:first-child {
+} */
+/* .latter form input:first-child {
   display: inline-block;
   width: 100%;
   outline: none;
   padding: 16px 140px 16px 15px;
   border: 2px solid var(--main-color);
   border-radius: 30px;
-}
+} */
 /* .latter form input:last-child {
   position: absolute;
   display: inline-block;
@@ -242,10 +249,11 @@ section {
   padding: 23px 21px;
   border-radius: 5px;
   font-size: 15px;
+  background-color: rgb(244, 101, 54);
   /* background: linear-gradient(90deg, rgba(249,67,7,1) 0%, rgba(244,93,6,1) 35%, rgba(250,255,0,1) 100%); */
-  /* border: none; */
-  /* color: white; */
-  border: 1px solid black;
+  border: none;
+  color: white;
+  /* border: 1px solid black; */
 }
 .btn-home .get:hover{
 border: none;
@@ -258,6 +266,8 @@ background: linear-gradient(45deg, #fa2424,#fb8721);;
   font-size: 15px;
   border-radius: 5px;
   padding: 23px 21px;
+  color: white;
+  background-color: black;
 }
 .btn-home .explore:hover{
   border: none;
