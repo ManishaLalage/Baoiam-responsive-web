@@ -45,3 +45,26 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
   });
+
+
+
+  var swiper = new Swiper(".mySwiperr", {
+    slidesPerView: "auto",
+    slidesPerView:3,
+    loop: true,
+    spaceBetween: 20,
+    autoplay:{
+      delay:2500,
+      disableOnInteraction:false,
+      loop: true,
+
+  },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
