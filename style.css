@@ -914,12 +914,44 @@ padding: 20px 20px 20px 0px;
 
 
 
+/* Top MNC */
 
 
+.mnc-top{
+  /* background-color: #4267B2; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+.mnc-top h2{
+  font-size: 1.8rem;
+font-weight: 700;
+  color: rgb(71, 71, 110);
+  padding: 20px;
+  border-spacing: 12px;
+  margin-bottom: 1rem;
+}
 
+.mnc-top h2 span{
+  color: rgb(245, 75, 33); 
+  border-bottom: 1px solid  rgb(245, 75, 33); 
 
+}
+.mnc-top .mnc-img{
+  /* background-color: #E1306C ; */
+  display: flex;
+  flex-wrap: wrap;
+gap: 1.1rem;
 
+}
 
+.mnc-top .mnc-img img{
+  border: 1px solid #e0e0e0 ;
+  display: block;
+  object-fit: cover;
+   width: 235px;
+  /* height: 360px;  */
+  height: auto;
+}
 
 
 
@@ -1022,7 +1054,8 @@ font-weight: 700;
   margin-left: 20%;
 }
 .contact-item2 .btn:hover {
-  background-color: #e3420c;  
+  /* background: #e0e0e0; */
+  background: #e3420c;  
   }
 .contact-item2 .contact-menu{
   background-color: #62e130;
