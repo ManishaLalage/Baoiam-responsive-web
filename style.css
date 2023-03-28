@@ -758,6 +758,224 @@ padding-bottom: 10px;
 }
 
 
+/*SERVICES  */
+
+.services{
+height: 100vh;
+/* width: 200vh; */
+}
+.service-main {
+  position: absolute;
+  /* margin-left: -26%; */
+  top: 190px;
+  /* background-color: #62e130; */
+  /* display: grid; */
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* gap: 2rem; */
+  /* grid-auto-rows: 300px; */
+  /* grid-auto-columns: 300px; */
+left: 0;
+/* padding-top: 20%; */
+display: flex;
+flex-wrap: wrap;
+  /* justify-content: left; */
+  /* justify-items: left; */
+  /* background-color: rgb(241, 241, 246); */
+}
+
+/* .service-menu */
+ .service-menu{
+  /* background-color: #4f6ed6; */
+    /* justify-content: left; */
+  /* justify-items: left; */
+  /* justify-items: left; */
+  display: flex;
+
+  position: relative;
+
+}
+
+ /* ul{
+  display: flex;
+  background-color: #62e130;
+} */
+.service-menu .menu{
+  /* background-color: #d9b2d8; */
+  /* display: flex; */
+  /* position: absolute; */
+  /* justify-items: left; */
+    /* justify-content: left; */
+/* left: 0; */
+/* justify-content: center; */
+}
+.service-menu  ul li{
+  /* background-color: #adedd1; */
+  padding: 20px;
+  border-bottom: 1px solid  rgb(222, 220, 231);
+}
+
+/* .service-menu  ul li{
+
+} */
+.service-menu  ul li a{
+  color: rgb(71, 71, 110);
+font-size: 1.3rem;
+font-weight: 600;
+/* background-color: #f66962; */
+}
+.service-menu  ul li a:hover{
+color:#f66962;
+padding: 20px;
+/* background-color: white; */
+border-bottom: 2px solid #f66962;
+}
+.service-img img{
+  border-radius: 15px;
+}
+
+.service-img img {
+  display: block;
+  /* width: 100%; */
+  /* height: 100%; */
+  object-fit: cover;
+  width: 360px;
+  /* width: 100%; */
+  height: 360px;
+  /* height: auto; */
+}
+.service-text{
+  /* background-color: #df1919; */
+  /* padding: 10px 20px; */
+  text-align: center;
+
+}
+.service-text h3 {
+  /* font-size: var(--h2-font); */
+  /* line-height: 1.2; */
+  /* margin-bottom: 30px; */
+   color: rgb(71, 71, 110);
+/* text-align: center; */
+/* background-color: #e0e0e0; */
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+padding:17px;
+}
+.service-heading {
+  /* background-color: #abe296; */
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 15px;
+  /* margin-bottom: 50%; */
+  /* margin: 20px; */
+}
+
+.service-heading  h1{
+  color: rgb(71, 71, 110);
+font-size: 2rem;
+font-weight: 700;
+text-align: left;
+padding: 20px;
+}
+.service-heading  h1 span{
+  /* position: absolute; */
+  /* text-align: left; */
+  /* font-size: 1.3rem; */
+  font-weight: 700;
+  /* line-height: 1.2; */
+  /* margin-bottom: 30px; */
+  color: rgb(245, 75, 33); 
+ border-bottom: 1px solid  rgb(245, 75, 33); 
+ 
+}
+.about-text p {
+  font-size: var(--p-font);
+  color: var(--second-color);
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.service-heading p{
+  color: rgb(151, 147, 147);
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+
+.about-text h5 {
+  font-size: 20px;
+  /* padding: 10px; */
+  /* margin-bottom: 70px; */
+}
+.about-content{
+  padding: 10px 20px 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: #4267B2; */
+/* margin-bottom: 20px; */
+/* justify-content: center; */
+
+}
+
+.about-text span{
+  padding:5px 50px  6px 0px;
+  /* background-color: #E1306C; */
+margin-bottom: 20px;
+font-size: 1.1rem;
+font-weight: 600;
+color: rgb(27, 27, 90);
+}
+
+.about-text span .fa{
+  color: rgb(245, 75, 33); ;
+font-size: 1.4rem;
+}
+.about-text h6 {
+  margin-top: -4%;
+  color: rgb(245, 75, 33); ;
+  font-size: 4rem;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.about-text h6 span{
+  color: rgb(167, 158, 158);
+  font-size: 1.4rem;
+padding: 0px 10px;
+}
+/* .about-text h6 .fa{
+  color: rgb(245, 75, 33); ;
+  font-size: 4.0rem;
+  
+} */
+.about-text .btn {
+  
+  /* margin-top: 12% !important; */
+  font-size: 1.3rem;
+  font-size: 600;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #fa2424,#fb8721);;
+
+  /* background: linear-gradient(90deg,#eb5b2b,#f37248,#faa86e); */
+  /* background-color: var(--main-color); */
+  margin-left: 2%;
+  padding: 12px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* contact */
 
 .contact-main{

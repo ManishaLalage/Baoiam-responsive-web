@@ -68,3 +68,8 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
   });
+
+
+  // swiper3
+
+  var swiper = new Swiper(".mySwiperrr", {});
